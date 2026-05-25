@@ -1,0 +1,42 @@
+name: Daily product refresh
+
+# Runs nightly to pull the latest in-stock products from the Wix store
+# (kycreekers.com/shop) into products.json. If anything changed, commits and
+# pushes, which triggers Netlify to redeploy the landing page automatically.
+
+on:
+  schedule:
+    # 08:00 UTC daily ~= 3 AM CDT / 2 AM CST (Mayfield, KY local time)
+    # Scheduled workflows can be delayed during periods of high GitHub load.
+    - cron: '0 8 * * *'
+  workflow_dispatch:  # allow manual trigger from the Actions tab
+
+permissions:
+  contents: write  # required so the bot can git push back to the repo
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Refresh products.json from Wix
+        run: python update_products.py
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet products.json; then
+            echo "No changes to products.json — nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add products.json
+          git commit -m "Daily product refresh: $(date -u +'%Y-%m-%d')"
+          git push
