@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Logs
+*.log
+refresh.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+# Claude harness state (keep .claude/launch.json by allowlisting it below)
+.claude/*
+!.claude/launch.json

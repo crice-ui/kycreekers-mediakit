@@ -1,0 +1,14 @@
+{
+  "last_updated": "2026-05-25",
+  "totals": {
+    "followers": "355K+",
+    "episodes": "129+",
+    "top_video_views": "21M"
+  },
+  "platforms": {
+    "facebook":  { "value": "121K",   "extra": "followers" },
+    "instagram": { "value": "116.5K", "extra": "followers • 982 posts" },
+    "tiktok":    { "value": "90.4K",  "extra": "followers • 487.9K likes" },
+    "youtube":   { "value": "27.7K",  "extra": "subscribers • 11.5M lifetime views" }
+  }
+}

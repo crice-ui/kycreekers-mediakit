@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1611"/>
+      <stop offset="50%" stop-color="#2a231a"/>
+      <stop offset="100%" stop-color="#1a1611"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="30%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#6b4c2e" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#6b4c2e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="75%" cy="85%" r="55%">
+      <stop offset="0%" stop-color="#4a5c3e" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#4a5c3e" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.96
+                             0 0 0 0 0.94
+                             0 0 0 0 0.91
+                             0 0 0 0.04 0"/>
+    </filter>
+    <style>
+      .wordmark { font-family: 'Playfair Display', 'Times New Roman', serif; font-weight: 900; }
+      .tagline  { font-family: 'Source Sans 3', 'Helvetica Neue', sans-serif; font-weight: 300; }
+      .mono     { font-family: 'JetBrains Mono', 'Courier New', monospace; font-weight: 500; }
+    </style>
+  </defs>
+
+  <!-- Background layers -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+  <rect width="1200" height="630" filter="url(#grain)" opacity="0.6"/>
+
+  <!-- Inner border / parchment frame -->
+  <rect x="40" y="40" width="1120" height="550" fill="none" stroke="#6b4c2e" stroke-width="1" opacity="0.6"/>
+  <rect x="48" y="48" width="1104" height="534" fill="none" stroke="#c9a96e" stroke-width="1" opacity="0.25"/>
+
+  <!-- Top badge -->
+  <g transform="translate(600, 120)">
+    <rect x="-90" y="-22" width="180" height="40" fill="none" stroke="#6b4c2e" stroke-width="1"/>
+    <text x="0" y="5" class="mono" font-size="14" fill="#c9a96e" text-anchor="middle" letter-spacing="4">MEDIA KIT 2026</text>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="600" y="320" class="wordmark" font-size="148" text-anchor="middle" letter-spacing="-3">
+    <tspan fill="#f5f0e8">Ky</tspan><tspan fill="#c9a96e">Creekers</tspan>
+  </text>
+
+  <!-- Decorative rule -->
+  <line x1="500" y1="370" x2="700" y2="370" stroke="#6b4c2e" stroke-width="1"/>
+  <circle cx="600" cy="370" r="3" fill="#c9a96e"/>
+
+  <!-- Tagline -->
+  <text x="600" y="430" class="tagline" font-size="32" fill="#e8dfd0" text-anchor="middle" font-style="italic">
+    Saving history one creek at a time
+  </text>
+
+  <!-- Bottom meta -->
+  <text x="600" y="520" class="mono" font-size="16" fill="#a09484" text-anchor="middle" letter-spacing="6">
+    WEST KENTUCKY  •  EST. 2023  •  325K+ FOLLOWERS
+  </text>
+
+  <!-- Corner accents -->
+  <g stroke="#c9a96e" stroke-width="1.5" fill="none" opacity="0.7">
+    <path d="M 70 70 L 70 100 M 70 70 L 100 70"/>
+    <path d="M 1130 70 L 1130 100 M 1130 70 L 1100 70"/>
+    <path d="M 70 560 L 70 530 M 70 560 L 100 560"/>
+    <path d="M 1130 560 L 1130 530 M 1130 560 L 1100 560"/>
+  </g>
+</svg>
