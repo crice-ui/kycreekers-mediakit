@@ -595,6 +595,91 @@ section {
   color: var(--stone);
 }
 
+/* LONG-FORM YOUTUBE */
+.longform {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.longform-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border: 1px solid rgba(201,169,110,0.25);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+}
+
+.longform-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.longform-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  padding: 28px 0 8px;
+  border-top: 1px solid rgba(201,169,110,0.18);
+}
+
+.longform-stat-row {
+  display: flex;
+  gap: 56px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.longform-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.longform-stat-value {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(28px, 4.5vw, 40px);
+  font-weight: 700;
+  color: var(--gold);
+  line-height: 1;
+}
+
+.longform-stat-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--stone);
+}
+
+.longform-cta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--gold);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  border: 1px solid var(--gold);
+  transition: background 0.3s ease, gap 0.3s ease;
+}
+
+.longform-cta:hover {
+  background: var(--gold);
+  color: var(--dark);
+  gap: 14px;
+}
+
 /* SCHEDULE */
 .schedule-grid {
   display: grid;
@@ -1146,9 +1231,49 @@ footer p {
 
 <div class="divider"></div>
 
+<!-- LONG-FORM YOUTUBE -->
+<section>
+  <div class="section-label">06 &mdash; Long-Form</div>
+  <h2 class="section-title">Deep dives on YouTube</h2>
+  <p class="section-text">Beyond the short clips, our YouTube channel is where the full stories live &mdash; documentary-length episodes on pre-Prohibition whiskey houses, Civil War relics, and the forgotten Kentucky towns that built them. This is where casual viewers turn into long-haul fans of the brand.</p>
+
+  <div class="longform">
+    <div class="longform-frame">
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/On6WkQBu5nk"
+        title="KyCreekers long-form documentary episode"
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+    <div class="longform-meta">
+      <div class="longform-stat-row">
+        <div class="longform-stat">
+          <span class="longform-stat-value">27.7K</span>
+          <span class="longform-stat-label">Subscribers</span>
+        </div>
+        <div class="longform-stat">
+          <span class="longform-stat-value">11.5M</span>
+          <span class="longform-stat-label">Lifetime Views</span>
+        </div>
+        <div class="longform-stat">
+          <span class="longform-stat-value">$4.1K+</span>
+          <span class="longform-stat-label">Ad Revenue</span>
+        </div>
+      </div>
+      <a class="longform-cta" href="https://www.youtube.com/@KyCreekers" target="_blank" rel="noopener">
+        Watch the full channel <span aria-hidden="true">&rarr;</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
 <!-- SCHEDULE -->
 <section>
-  <div class="section-label">06 &mdash; Schedule</div>
+  <div class="section-label">07 &mdash; Schedule</div>
   <h2 class="section-title">When we go live</h2>
 
   <div class="schedule-grid">
@@ -1167,7 +1292,7 @@ footer p {
 
 <!-- SHOP -->
 <section>
-  <div class="section-label">07 &mdash; Shop</div>
+  <div class="section-label">08 &mdash; Shop</div>
   <h2 class="section-title">Beyond the creek</h2>
   <p class="section-text">Authentic antique bottles pulled from our digs, plus KyCreekers branded apparel for collectors, history hunters, and anyone who'd rather spend a Saturday knee-deep in a creek than anywhere else.</p>
 
