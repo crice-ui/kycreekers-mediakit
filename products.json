@@ -10,7 +10,7 @@
     {
       "name": "Peter Schille Soda Bottle",
       "category": "Antique Bottle • Columbus, OH",
-      "price": "$1",
+      "price": "$20",
       "image": "https://static.wixstatic.com/media/c1967c_4691242e873f4412a15fb67f14b91a8a~mv2.jpg/v1/fit/w_800,h_800,q_85/file.jpg",
       "url": "https://www.kycreekers.com/product-page/peter-schille"
     },
@@ -27,13 +27,6 @@
       "price": "$29.95",
       "image": "https://static.wixstatic.com/media/c1967c_6b05e6b7be4f4af489103668ba4097a3~mv2.jpeg/v1/fit/w_800,h_800,q_85/file.jpg",
       "url": "https://www.kycreekers.com/product-page/tie-dye-kycreekers-t-shirt-colorful-retro-crew-tee"
-    },
-    {
-      "name": "KyCreekers Snapback Hat",
-      "category": "Apparel • Snapback",
-      "price": "$28.35",
-      "image": "https://static.wixstatic.com/media/c1967c_e03ade01015d426195a7977fb5be3648~mv2.jpeg/v1/fit/w_800,h_800,q_85/file.jpg",
-      "url": "https://www.kycreekers.com/product-page/snapback-hat-kycreekers-design"
     },
     {
       "name": "KyCreekers Trucker Cap",
