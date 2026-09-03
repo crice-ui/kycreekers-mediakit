@@ -24,34 +24,34 @@ from pathlib import Path
 # ============================================================
 FEATURED = [
     {
-        "slug": "pre-pro-shot-glass-covington-ky",
-        "name": "Pre-Pro Shot Glass — Covington, KY",
-        "category": "Antique Glass • Local KY Find",
+        "slug": "880s-garret-wine",
+        "name": "1880s Garrett & Co. Wine Bottle",
+        "category": "Antique Bottle • North Carolina",
     },
     {
-        "slug": "peter-schille",
-        "name": "Peter Schille Soda Bottle",
-        "category": "Antique Bottle • Columbus, OH",
+        "slug": "kycreekers-fleece-hoodie-stay-warm-in-style-this-winter",
+        "name": "KyCreekers Fleece Hoodie",
+        "category": "Apparel • Hoodie",
     },
     {
-        "slug": "1930-50nehi-lot-2-from-columbus-ga-900",
-        "name": "1930s–50s Nehi Bottles (Lot of 2)",
-        "category": "Antique Bottle • Columbus, GA",
+        "slug": "fulton-ky-hutch",
+        "name": "Fulton, KY Hutchinson Soda",
+        "category": "Antique Bottle • Fulton, KY",
     },
     {
-        "slug": "tie-dye-kycreekers-t-shirt-colorful-retro-crew-tee",
-        "name": "Tie Dye Retro Crew Tee",
-        "category": "Apparel • Tee",
+        "slug": "kycreekers-antique-shop-long-sleeve-tee",
+        "name": "KyCreekers Antique Shop Long-Sleeve",
+        "category": "Apparel • Long-Sleeve Tee",
+    },
+    {
+        "slug": "early-apothecary-bottles",
+        "name": "Early Amber Apothecary Bottles (Pair)",
+        "category": "Antique Glass • Apothecary",
     },
     {
         "slug": "snapback-hat-kycreekers-design",
         "name": "KyCreekers Snapback Hat",
         "category": "Apparel • Snapback",
-    },
-    {
-        "slug": "trucker-cap-new-fresh-looking-kycreekers-hats-with-more-colors",
-        "name": "KyCreekers Trucker Cap",
-        "category": "Apparel • Trucker Cap",
     },
 ]
 # ============================================================

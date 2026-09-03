@@ -4,17 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KyCreekers — Media Kit</title>
-<meta name="description" content="KyCreekers — Matt &amp; Chris uncover history in Kentucky's creeks. Bottle digging, relic hunting, and documentary storytelling across TikTok, Instagram, Facebook & YouTube. 325K+ followers strong.">
+<meta name="description" content="Matt &amp; Chris uncover history in Kentucky's creeks. Bottle digging, relic hunting &amp; documentary storytelling. 358K+ followers across TikTok, Instagram, Facebook &amp; YouTube.">
 <meta name="theme-color" content="#1a1611">
-<link rel="canonical" href="https://kycreekers.com/">
+<link rel="canonical" href="https://kycreekers-mediakit.netlify.app/">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://kycreekers.com/">
+<meta property="og:url" content="https://kycreekers-mediakit.netlify.app/">
 <meta property="og:site_name" content="KyCreekers">
 <meta property="og:title" content="KyCreekers — Media Kit">
-<meta property="og:description" content="Saving history one creek at a time. Bottle digging, relic hunting & documentary storytelling from West Kentucky. 325K+ followers.">
-<meta property="og:image" content="https://kycreekers.com/og-image.jpg">
+<meta property="og:description" content="Saving history one creek at a time. Bottle digging, relic hunting &amp; documentary storytelling from West Kentucky. 358K+ followers.">
+<meta property="og:image" content="https://kycreekers-mediakit.netlify.app/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="KyCreekers — Saving history one creek at a time">
@@ -23,8 +23,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@kycreekers">
 <meta name="twitter:title" content="KyCreekers — Media Kit">
-<meta name="twitter:description" content="Saving history one creek at a time. Bottle digging & documentary storytelling from West Kentucky. 325K+ followers.">
-<meta name="twitter:image" content="https://kycreekers.com/og-image.jpg">
+<meta name="twitter:description" content="Saving history one creek at a time. Bottle digging &amp; documentary storytelling from West Kentucky. 358K+ followers.">
+<meta name="twitter:image" content="https://kycreekers-mediakit.netlify.app/og-image.jpg">
 
 <!-- Favicon (inline SVG: gold bottle silhouette on dark) -->
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%231a1611'/%3E%3Cpath d='M27 10 h10 v4 a2 2 0 0 0 1 1.5 l3 5 a5 5 0 0 1 1 3 v28 a4 4 0 0 1 -4 4 h-12 a4 4 0 0 1 -4 -4 v-28 a5 5 0 0 1 1 -3 l3 -5 a2 2 0 0 0 1 -1.5 z' fill='%23c9a96e'/%3E%3C/svg%3E">
@@ -35,7 +35,7 @@
   --cream: #f5f0e8;
   --dark: #1a1611;
   --brown: #6b4c2e;
-  --brown-light: #8b6a47;
+  --brown-light: #a07d55;
   --gold: #c9a96e;
   --gold-bright: #d4b87a;
   --moss: #4a5c3e;
@@ -187,7 +187,6 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--brown-light);
-  opacity: 0.7;
   animation: fadeUp 1.3s var(--ease-flow) 1.2s both;
 }
 
@@ -394,7 +393,7 @@ section {
 .platform-icon.tk { background: rgba(255,255,255,0.08); color: #fff; }
 .platform-icon.yt { background: rgba(255,0,0,0.15); color: #ff4444; }
 
-.platform-info h4 {
+.platform-info h3 {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 2px;
@@ -694,7 +693,7 @@ section {
   background: rgba(74,92,62,0.08);
 }
 
-.schedule-item h4 {
+.schedule-item h3 {
   font-family: 'Playfair Display', serif;
   font-size: 18px;
   margin-bottom: 6px;
@@ -977,6 +976,9 @@ footer p {
   color: var(--brown-light);
 }
 
+/* VERIFIED BADGE */
+.verified { color: #5b9bd5; font-size: 12px; }
+
 /* ANIMATIONS */
 @keyframes fadeDown {
   from { opacity: 0; transform: translateY(-32px); }
@@ -1017,12 +1019,17 @@ footer p {
 
   section { padding: 60px 20px; }
 }
+
+/* REDUCED MOTION */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
 </style>
 </head>
 <body>
 
 <!-- HERO -->
-<div class="hero">
+<header class="hero">
   <div class="badge">Media Kit 2026</div>
   <h1 class="hero-mark" aria-label="KyCreekers — Antique Bottle Collectors — Est. 2023">
     <img class="hero-logo" src="logo.png" alt="KyCreekers — Antique Bottle Collectors — Est. 2023">
@@ -1050,7 +1057,7 @@ footer p {
   <p class="hero-sub">Antique Bottle Collectors &bull; West Kentucky</p>
   <div class="hero-stats">
     <div class="hero-stat">
-      <div class="hero-stat-number" data-stat="followers">325K+</div>
+      <div class="hero-stat-number" data-stat="followers">358K+</div>
       <div class="hero-stat-label">Followers</div>
     </div>
     <div class="hero-stat">
@@ -1058,13 +1065,15 @@ footer p {
       <div class="hero-stat-label">Episodes</div>
     </div>
     <div class="hero-stat">
-      <div class="hero-stat-number" data-stat="top_video_views">2.7M</div>
+      <div class="hero-stat-number" data-stat="top_video_views">21M</div>
       <div class="hero-stat-label">Top Video Views</div>
     </div>
   </div>
-  <div class="stats-updated" data-stat-updated>Stats updated May 2026</div>
-  <div class="scroll-hint">Scroll &darr;</div>
-</div>
+  <div class="stats-updated" data-stat-updated>Stats updated September 2026</div>
+  <div class="scroll-hint" aria-hidden="true">Scroll &darr;</div>
+</header>
+
+<main>
 
 <!-- ABOUT -->
 <section>
@@ -1105,42 +1114,42 @@ footer p {
   <h2 class="section-title">Where to find us</h2>
 
   <div class="platforms-grid">
-    <a class="platform-card" href="https://www.facebook.com/profile.php?id=61552770563404" target="_blank">
+    <a class="platform-card" href="https://www.facebook.com/profile.php?id=61552770563404" target="_blank" rel="noopener">
       <div class="platform-icon fb" aria-hidden="true">f</div>
       <div class="platform-info">
-        <h4>Facebook</h4>
+        <h3>Facebook</h3>
         <div class="handle">@KyCreekers</div>
-        <div class="followers" data-platform-followers="facebook">120K</div>
+        <div class="followers" data-platform-followers="facebook">122.7K</div>
         <div class="extra" data-platform-extra="facebook">followers</div>
       </div>
     </a>
 
-    <a class="platform-card" href="https://www.instagram.com/kycreekers/" target="_blank">
+    <a class="platform-card" href="https://www.instagram.com/kycreekers/" target="_blank" rel="noopener">
       <div class="platform-icon ig" aria-hidden="true">&#9673;</div>
       <div class="platform-info">
-        <h4>Instagram <span style="color: #5b9bd5; font-size: 12px;">&#10003; Verified</span></h4>
+        <h3>Instagram <span class="verified"><span aria-hidden="true">&#10003;</span> Verified</span></h3>
         <div class="handle">@kycreekers</div>
-        <div class="followers" data-platform-followers="instagram">116K</div>
-        <div class="extra" data-platform-extra="instagram">followers &bull; 982 posts</div>
+        <div class="followers" data-platform-followers="instagram">115.6K</div>
+        <div class="extra" data-platform-extra="instagram">followers</div>
       </div>
     </a>
 
-    <a class="platform-card" href="https://www.tiktok.com/@kycreekers" target="_blank">
+    <a class="platform-card" href="https://www.tiktok.com/@kycreekers" target="_blank" rel="noopener">
       <div class="platform-icon tk" aria-hidden="true">&#9835;</div>
       <div class="platform-info">
-        <h4>TikTok</h4>
+        <h3>TikTok</h3>
         <div class="handle">@kycreekers</div>
-        <div class="followers" data-platform-followers="tiktok">90.2K</div>
-        <div class="extra" data-platform-extra="tiktok">followers &bull; 486K likes</div>
+        <div class="followers" data-platform-followers="tiktok">91.6K</div>
+        <div class="extra" data-platform-extra="tiktok">followers &bull; 510.2K likes</div>
       </div>
     </a>
 
-    <a class="platform-card" href="https://www.youtube.com/@KyCreekers" target="_blank">
+    <a class="platform-card" href="https://www.youtube.com/@KyCreekers" target="_blank" rel="noopener">
       <div class="platform-icon yt" aria-hidden="true">&#9654;</div>
       <div class="platform-info">
-        <h4>YouTube</h4>
+        <h3>YouTube</h3>
         <div class="handle">@KyCreekers</div>
-        <div class="followers" data-platform-followers="youtube">27.7K</div>
+        <div class="followers" data-platform-followers="youtube">28K</div>
         <div class="extra" data-platform-extra="youtube">subscribers &bull; 11.5M lifetime views</div>
       </div>
     </a>
@@ -1250,7 +1259,7 @@ footer p {
     <div class="longform-meta">
       <div class="longform-stat-row">
         <div class="longform-stat">
-          <span class="longform-stat-value">27.7K</span>
+          <span class="longform-stat-value" data-platform-followers="youtube">28K</span>
           <span class="longform-stat-label">Subscribers</span>
         </div>
         <div class="longform-stat">
@@ -1278,11 +1287,11 @@ footer p {
 
   <div class="schedule-grid">
     <div class="schedule-item">
-      <h4>Saturday Mornings</h4>
+      <h3>Saturday Mornings</h3>
       <p>TikTok Live &bull; 7:00 AM &ndash; 12:00 PM CST<br>Creek walking &amp; bottle digging in real time</p>
     </div>
     <div class="schedule-item">
-      <h4>Sunday Afternoons</h4>
+      <h3>Sunday Afternoons</h3>
       <p>TikTok Live &bull; 1:00 PM &ndash; 4:00 PM CST<br>Additional digs, finds, and community interaction</p>
     </div>
   </div>
@@ -1301,7 +1310,7 @@ footer p {
   </div>
 
   <div class="shop-cta">
-    <a class="shop-button" id="catalog-cta" href="https://kycreekers.com/shop" target="_blank">
+    <a class="shop-button" id="catalog-cta" href="https://kycreekers.com/shop" target="_blank" rel="noopener">
       View Full Catalog
       <span class="shop-arrow" aria-hidden="true">&rarr;</span>
     </a>
@@ -1309,7 +1318,7 @@ footer p {
 
   <p class="shop-secondary">
     Have a specific bottle in mind, or interested in a custom find?
-    <a href="mailto:kycreekers@outlook.com">Inquire directly &rarr;</a>
+    <a href="mailto:kycreekers@outlook.com">Inquire directly <span aria-hidden="true">&rarr;</span></a>
   </p>
 </section>
 
@@ -1332,11 +1341,11 @@ footer p {
   </div>
 
   <div class="contact-links">
-    <a href="https://www.youtube.com/@KyCreekers" target="_blank" class="contact-link">YouTube</a>
-    <a href="https://www.tiktok.com/@kycreekers" target="_blank" class="contact-link">TikTok</a>
-    <a href="https://www.instagram.com/kycreekers/" target="_blank" class="contact-link">Instagram</a>
-    <a href="https://www.facebook.com/profile.php?id=61552770563404" target="_blank" class="contact-link">Facebook</a>
-    <a href="https://kycreekers.com" target="_blank" class="contact-link">Website</a>
+    <a href="https://www.youtube.com/@KyCreekers" target="_blank" rel="noopener" class="contact-link">YouTube</a>
+    <a href="https://www.tiktok.com/@kycreekers" target="_blank" rel="noopener" class="contact-link">TikTok</a>
+    <a href="https://www.instagram.com/kycreekers/" target="_blank" rel="noopener" class="contact-link">Instagram</a>
+    <a href="https://www.facebook.com/profile.php?id=61552770563404" target="_blank" rel="noopener" class="contact-link">Facebook</a>
+    <a href="https://kycreekers.com" target="_blank" rel="noopener" class="contact-link">Website</a>
   </div>
 </div>
 
@@ -1349,7 +1358,7 @@ footer p {
     const res = await fetch('stats.json', { cache: 'no-store' });
     if (!res.ok) return;
     const s = await res.json();
-    const set = (sel, val) => { const el = document.querySelector(sel); if (el && val != null) el.textContent = val; };
+    const set = (sel, val) => { if (val == null) return; document.querySelectorAll(sel).forEach(el => { el.textContent = val; }); };
 
     if (s.totals) {
       set('[data-stat="followers"]', s.totals.followers);
@@ -1396,9 +1405,9 @@ footer p {
     container.innerHTML = products.map(p => {
       const hasImage = p.image && p.image.length > 0;
       const imageBlock = hasImage
-        ? `<div class="product-card-image"><img src="${escapeHtml(p.image)}" alt="${escapeHtml(p.name)}" loading="lazy"></div>`
+        ? `<div class="product-card-image"><img src="${escapeHtml(p.image)}" alt="" loading="lazy"></div>`
         : `<div class="product-card-image" data-placeholder="${escapeHtml(initial(p.name))}"></div>`;
-      const href = p.url ? escapeHtml(p.url) : '#';
+      const href = escapeHtml(p.url || data.catalog_url || 'https://www.kycreekers.com/shop');
       return `
         <a class="product-card" href="${href}" target="_blank" rel="noopener">
           ${imageBlock}
@@ -1426,6 +1435,8 @@ footer p {
   }
 })();
 </script>
+
+</main>
 
 <!-- FOOTER -->
 <footer>

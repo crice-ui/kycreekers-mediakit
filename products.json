@@ -1,18 +1,39 @@
 {
   "featured": [
     {
-      "name": "Peter Schille Soda Bottle",
-      "category": "Antique Bottle • Columbus, OH",
-      "price": "$20",
-      "image": "https://static.wixstatic.com/media/c1967c_4691242e873f4412a15fb67f14b91a8a~mv2.jpg/v1/fit/w_800,h_800,q_85/file.jpg",
-      "url": "https://www.kycreekers.com/product-page/peter-schille"
+      "name": "1880s Garrett & Co. Wine Bottle",
+      "category": "Antique Bottle • North Carolina",
+      "price": "$50",
+      "image": "https://static.wixstatic.com/media/c1967c_d8049b20294041f296f1c2b72ff2ae11~mv2.jpg/v1/fit/w_800,h_800,q_85/file.jpg",
+      "url": "https://www.kycreekers.com/product-page/880s-garret-wine"
     },
     {
-      "name": "Tie Dye Retro Crew Tee",
-      "category": "Apparel • Tee",
-      "price": "$29.95",
-      "image": "https://static.wixstatic.com/media/c1967c_6b05e6b7be4f4af489103668ba4097a3~mv2.jpeg/v1/fit/w_800,h_800,q_85/file.jpg",
-      "url": "https://www.kycreekers.com/product-page/tie-dye-kycreekers-t-shirt-colorful-retro-crew-tee"
+      "name": "KyCreekers Fleece Hoodie",
+      "category": "Apparel • Hoodie",
+      "price": "$62.56",
+      "image": "https://static.wixstatic.com/media/c1967c_7ef58d0455e346fb8cd5d9189a210a03~mv2.jpeg/v1/fit/w_800,h_800,q_85/file.jpg",
+      "url": "https://www.kycreekers.com/product-page/kycreekers-fleece-hoodie-stay-warm-in-style-this-winter"
+    },
+    {
+      "name": "Fulton, KY Hutchinson Soda",
+      "category": "Antique Bottle • Fulton, KY",
+      "price": "$45",
+      "image": "https://static.wixstatic.com/media/c1967c_e5b6aa7fb1654aeea0aca356b2b089fd~mv2.jpg/v1/fit/w_800,h_800,q_85/file.jpg",
+      "url": "https://www.kycreekers.com/product-page/fulton-ky-hutch"
+    },
+    {
+      "name": "KyCreekers Antique Shop Long-Sleeve",
+      "category": "Apparel • Long-Sleeve Tee",
+      "price": "$47.38",
+      "image": "https://static.wixstatic.com/media/c1967c_d47134f0b8714c6fbc9c3cab8ccca317~mv2.jpeg/v1/fit/w_800,h_800,q_85/file.jpg",
+      "url": "https://www.kycreekers.com/product-page/kycreekers-antique-shop-long-sleeve-tee"
+    },
+    {
+      "name": "Early Amber Apothecary Bottles (Pair)",
+      "category": "Antique Glass • Apothecary",
+      "price": "$15",
+      "image": "https://static.wixstatic.com/media/c1967c_059ee5955f5a4143a66efcea404f2653~mv2.jpg/v1/fit/w_800,h_800,q_85/file.jpg",
+      "url": "https://www.kycreekers.com/product-page/early-apothecary-bottles"
     },
     {
       "name": "KyCreekers Snapback Hat",
@@ -20,13 +41,6 @@
       "price": "$28.35",
       "image": "https://static.wixstatic.com/media/c1967c_e03ade01015d426195a7977fb5be3648~mv2.jpeg/v1/fit/w_800,h_800,q_85/file.jpg",
       "url": "https://www.kycreekers.com/product-page/snapback-hat-kycreekers-design"
-    },
-    {
-      "name": "KyCreekers Trucker Cap",
-      "category": "Apparel • Trucker Cap",
-      "price": "$24.51",
-      "image": "https://static.wixstatic.com/media/c1967c_3b42a7d412224bfe8dbd26a610b2533d~mv2.jpeg/v1/fit/w_800,h_800,q_85/file.jpg",
-      "url": "https://www.kycreekers.com/product-page/trucker-cap-new-fresh-looking-kycreekers-hats-with-more-colors"
     }
   ],
   "catalog_url": "https://www.kycreekers.com/shop"
